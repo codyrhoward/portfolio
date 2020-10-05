@@ -46,13 +46,13 @@ img{
   justify-content: space-evenly;
   margin-top: 20px;
 }
-.mycollection {
+/* .myprojects {
   display: flex;
   height: 90vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-}
+} */
 .resume {
   display: flex;
   height: 100%;
@@ -64,13 +64,26 @@ img{
   justify-content: center;
   width: 100%;
 }
-/* .resume{
-  border: solid;
+.myprojects{
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100%;
 }
-.resume > img {
- width: 100%;
-} */
+
+.projects__ul {
+  list-style: none;
+  margin: 40px
+}
+.projects__a {
+  text-decoration: none;
+  color: black;
+}
+.projects__li {
+  margin: 40px;
+  font-size: larger;
+}
+.projects__li:hover{
+  background-color: lightgray;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+}
