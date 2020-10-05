@@ -1,12 +1,14 @@
 import React from 'react'
 
-function Search() {
+function Resume() {
     return (
-        <div className="search">
-            <h1>hello from search</h1>
+        <div className="resume">
+            <div>           
+              <img src="https://i.ibb.co/sJmynpS/Cody-Howard-Software-Engineer-resume.jpg" />
+            </div>
         </div>
     )
 }
 
-export default Search
+export default Resume
 
